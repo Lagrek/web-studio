@@ -10,3 +10,8 @@ function parallaxScroll(){
     var scrolled = $(window).scrollTop();
     $('#parallax').css('top',(0-(scrolled*.70))+'px');
 }
+
+  $('.carousel.carousel-slider').carousel({
+    fullWidth: true
+  });
+        
